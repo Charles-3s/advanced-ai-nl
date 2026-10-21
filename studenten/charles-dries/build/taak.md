@@ -8,7 +8,7 @@ Eén geanonimiseerde bezoekersreactie uit een enquête of van sociale media.
 
 ## Uitvoer
 
-De tool geeft precies één label met een korte reden:
+De tool geeft één of meer labels met een korte reden:
 
 | Label | Betekenis |
 |---|---|
@@ -19,10 +19,10 @@ De tool geeft precies één label met een korte reden:
 | `personeel` | Een verbeterpunt over medewerkers, vrijwilligers of security. |
 | `veiligheid` | Een verbeterpunt over veiligheid, onveilig gedrag of drugs. |
 | `geen verbeterpunt` | De reactie is uitsluitend positief of neutraal en bevat geen verbeterpunt. |
-| `onzeker/anders` | De reactie is onduidelijk, bevat meerdere onderwerpen of past in geen label. |
+| `onzeker/anders` | De reactie is onduidelijk of past in geen label. |
 
-Daarna kan de organisator de labels tellen om de drie meest voorkomende verbeterpunten te zien.
+Een reactie met verschillende duidelijke verbeterpunten krijgt meerdere labels. Daarna kan de organisator de labels tellen om de drie meest voorkomende verbeterpunten te zien.
 
 ## Controle
 
-Voor elke testreactie leg ik vooraf zelf het juiste label vast. Bij twijfel kiest de tool `onzeker/anders` in plaats van te gokken.
+Voor elke testreactie leg ik vooraf zelf de juiste labels vast. Bij twijfel kiest de tool `onzeker/anders` in plaats van te gokken.

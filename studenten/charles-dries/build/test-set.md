@@ -2,7 +2,7 @@
 
 Het juiste antwoord vul ik in vóór de eerste run. Namen en herkenbare gegevens zijn vervangen.
 
-| ID | Input | Juiste antwoord | Waarom | Run 1 | Run 2 |
+| ID | Input | Juiste labels | Waarom | Run 1 (v1) | Run 2 (v1) |
 |---|---|---|---|---|---|
 | T01 | Bambata Openair: De straten lagen open, dus het was moeilijker bereikbaar. De locatie was niet zo goed aangeduid. Het eten was wel heel lekker. | locatie/bereikbaarheid | De reactie gaat over aanduiding en bereikbaarheid van de locatie. | {"label":"locatie/bereikbaarheid","reden":"De reactie noemt openliggende straten en gebrekkige aanduiding als verbeterpunten voor de bereikbaarheid en locatie."} | {"label":"locatie/bereikbaarheid","reden":"De reactie gaat over de route, werken en aanduiding van de locatie."} |
 | T02 | Muziek was top! | geen verbeterpunt | Geen negatieve reactie of verbeterpunt. | {"label":"geen verbeterpunt","reden":"De reactie is uitsluitend positief over de muziek."} | {"label":"geen verbeterpunt","reden":"De bezoeker noemt geen verbeterpunt."} |
@@ -14,5 +14,7 @@ Het juiste antwoord vul ik in vóór de eerste run. Namen en herkenbare gegevens
 | T08 | Duur! | prijs | Omdat het gaat over de prijs. | {"label":"prijs","reden":"De reactie gaat over een te hoge prijs."} | {"label":"prijs","reden":"De reactie noemt de prijs als verbeterpunt."} |
 | T09 | Leuk minifestival, enigste fuif in de regio die nog voldoet aan de standaarden van een goeie fuif. Wel was het onduidelijk aangeduid en moeilijker bereikbaar door de werken. | locatie/bereikbaarheid | De reactie gaat over aanduiding en bereikbaarheid door werken. | {"label":"locatie/bereikbaarheid","reden":"De reactie noemt onduidelijke aanduiding en moeilijkere bereikbaarheid door werken."} | {"label":"locatie/bereikbaarheid","reden":"De reactie gaat over de aanduiding en bereikbaarheid door werken."} |
 | T10 | Te zware muziek waardoor er misschien klanten weg gegaan zijn, maar ik kom zeker trug. | programma | Het gaat over de muziek en line-up. | {"label":"programma","reden":"De reactie noemt de muziek als mogelijk verbeterpunt."} | {"label":"programma","reden":"De zware muziek wordt als verbeterpunt genoemd."} |
+| T11 | De muziek is veel te stevig waardoor ik naar huis ben gegaan. | programma | De reactie gaat over de line-up en de muziek. |  |  |
+| T12 | Het eten was te duur voor wat het was en de cocktails waren op. | prijs, catering | De reactie noemt zowel een prijsprobleem als een cateringprobleem. |  |  |
 
-Resultaat: **run 1: 10 op 10 juist; run 2: 10 op 10 juist**.
+Resultaat v1: **run 1: 10 op 10 juist; run 2: 10 op 10 juist**. Door de nieuwe uitvoer met meerdere labels moet ik de volledige testset opnieuw uitvoeren met prompt v2.

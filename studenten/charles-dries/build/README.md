@@ -2,7 +2,7 @@
 
 ## Wat doet de tool?
 
-De tool geeft één bezoekersreactie precies één label en een korte reden. De labels kunnen nadien geteld worden om de vaakst genoemde verbeterpunten voor een event te zien.
+De tool geeft één bezoekersreactie één of meer labels en een korte reden. De labels kunnen nadien geteld worden om de vaakst genoemde verbeterpunten voor een event te zien.
 
 ## Zo test je de tool
 
